@@ -1,0 +1,136 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+    .range,.play-pause,.song,.next-song,.back-song,.mute{
+        cursor: pointer;
+    }
+.wrp{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.player{
+    position: relative;
+    width: 680px;
+    height: 50px;
+    padding: 10px;
+    background:blue; 
+    border-radius: 5px;
+}
+#pause{
+display: none;
+}
+
+.current-time{
+    float: left;
+    top: 20px;
+    margin-left: 15px;
+}
+.track-time{
+    float: right;
+  margin-right: -640px;
+}
+
+
+.play-pause,.play-pause_song{
+     width: 30px;
+     height: 30px;
+     background-size: 50px;
+    border-radius: 45px;
+    float: left;
+}
+
+.Name-song,seting{
+    position: absolute;
+    color: #ecf0f1;
+    padding:5px;
+    left:340px;
+    font-size: 18px;
+}
+.seting{
+    left: 80px
+}
+.seting div{
+    float: left;
+   margin-right: 5px;
+    
+}
+
+.mute,volume{
+    font-size: 20px;
+    margin:0 10px ;
+}
+
+.time,.duration_song{
+    float: left;
+   font-size 5px;
+   margin-left: 50px 
+}
+
+.song{
+ 
+    height: 55px;
+    border-radius: 5px;
+    width: 700px;
+    background:green;
+    margin-left:-10px;
+    float: left;
+}
+
+.song:hover{
+    background:rgb(125, 221, 125);
+}
+
+.nameSong_song{
+ margin-left: 330px;
+ margin-top: 15px;
+ font-size: 18px;
+}
+.next-song{
+    border-radius: 15px;
+}
+.back-song{
+    border-radius: 15px;
+}
+.duration_song{
+    margin-top: -15px;
+    margin-right: 10px;
+      float: right;
+}
+.progress-bar-wrapper {
+    width: 70%;
+    float: left;
+  }
+  .progress-bar {  
+    height: 2px;
+    position: relative;
+    top:-20px;
+    margin-left: 65px;
+  }
+  .progress-bar-shadow {
+    background: #ccc;
+    height: 2px;
+    position: relative;
+    width: 120%;
+    top: -18px;
+    margin-left: 65px;
+  }
+  #volumeLevel{
+      margin-bottom: 35px;
+  }
+.play-paus{
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 45px;
+}
+
+
+
+
